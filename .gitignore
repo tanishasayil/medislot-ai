@@ -1,0 +1,9 @@
+.env
+.streamlit/secrets.toml
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+bookings.csv
+slots.csv
