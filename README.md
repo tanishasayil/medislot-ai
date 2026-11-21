@@ -52,3 +52,24 @@ Use the actual future date displayed by your running app if this example date ha
 - `.env.example` – environment variable template (no secret)
 - `slots.csv` and `bookings.csv` – generated locally on first run
 
+
+### 1. MediSlot AI – Application Homepage
+The main interface where patients enter their appointment requirements.
+<img width="1457" height="787" alt="01_Homepage" src="https://github.com/user-attachments/assets/8c7146dc-056c-4f38-9cfd-9b3eb82bdcb3" />
+
+
+### 2. Gemini-Powered Information Extraction
+Gemini extracts the patient's name, department, preferred date and time into structured JSON.
+<img width="757" height="629" alt="02_Extracted_details" src="https://github.com/user-attachments/assets/a9669472-e8a4-49b6-b299-12289b235dea" />
+
+### 3. Appointment Slot Unavailability
+The application detects when the requested appointment slot is unavailable and displays alternative slots.
+<img width="810" height="783" alt="03_Unavailable_slot" src="https://github.com/user-attachments/assets/0aecccea-acbe-4a51-8e35-bf032820402d" />
+
+### 4. Alternative Slot Selection and Booking
+The patient selects an available alternative slot, and the application confirms the appointment.
+<img width="771" height="715" alt="04_Alternative_slot_booking" src="https://github.com/user-attachments/assets/f96331cc-1e2c-4465-be28-d304f2a12a9e" />
+
+### 5. Booking Records and Slot Status
+The booking records are updated, and the booked slot is marked as unavailable to prevent duplicate bookings.
+<img width="1464" height="363" alt="06_Booking_records" src="https://github.com/user-attachments/assets/2b75a9e6-bc21-4cfc-9abf-16fec16514da" />
