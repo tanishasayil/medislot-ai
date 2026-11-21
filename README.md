@@ -51,3 +51,4 @@ Use the actual future date displayed by your running app if this example date ha
 - `requirements.txt` – Python dependencies
 - `.env.example` – environment variable template (no secret)
 - `slots.csv` and `bookings.csv` – generated locally on first run
+
